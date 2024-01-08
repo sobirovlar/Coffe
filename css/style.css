@@ -1,0 +1,416 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Indie+Flower&family=Lilita+One&family=Open+Sans&family=Roboto+Mono:wght@500&family=Rubik+Doodle+Shadow&display=swap");
+:root {
+  --abril: "Abril Fatface", serif;
+  --sans: "Open Sans", sans-serif;
+  --robo: "Roboto Mono", monospace;
+}
+
+.header {
+  height: 100vh;
+  background-image: url(/img/carousel-2.jpg);
+  background-size: cover;
+}
+.header .navbar {
+  font-size: 1.1rem;
+}
+.header .navbar a {
+  text-decoration: none;
+  font-family: var(--sans);
+  color: white;
+  transition: all 0.5s linear;
+  margin-left: 1.2rem;
+  margin-right: 1rem;
+}
+.header .navbar a:hover {
+  color: orange;
+  transition: all 0.5s linear;
+}
+.header .navbar a:first-of-type {
+  color: orange;
+}
+.header .navbar i {
+  display: none;
+}
+.header .navbar select {
+  background: 0;
+}
+.header .navbar .logo a {
+  font-size: 3rem;
+  color: white;
+  font-weight: bold;
+}
+.header .banner {
+  text-align: center;
+  opacity: 0.8;
+  padding-top: 10rem;
+}
+.header .banner span {
+  color: orange;
+  font-size: 2rem;
+}
+.header .banner h1 {
+  font-size: 7.3rem;
+  color: white;
+}
+.header .banner h3 {
+  color: white;
+}
+
+.ABOUt {
+  background-color: rgb(255, 249, 241);
+  width: 100%;
+  padding: 4rem 0;
+}
+.ABOUt .title {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.ABOUt .title span {
+  color: orange;
+}
+.ABOUt .title h4 {
+  color: orange;
+  font-size: 2rem;
+}
+.ABOUt .title h2 {
+  font-size: 3.3rem;
+}
+.ABOUt .about__contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  gap: 0;
+  align-items: center;
+  padding-top: 1rem;
+}
+.ABOUt .about__contact h3 {
+  font-size: 2.2rem;
+}
+.ABOUt .about__contact span {
+  font-size: 1.2rem;
+}
+.ABOUt .about__contact p {
+  line-height: 23px;
+  opacity: 0.9;
+}
+.ABOUt .about__contact a {
+  display: block;
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+}
+.ABOUt .about__contact a i {
+  margin-right: 4px;
+  font-weight: bold;
+  color: rgb(215, 140, 2);
+}
+.ABOUt .about__contact button {
+  margin-top: 1rem;
+}
+
+.Fresh {
+  background-color: rgb(255, 249, 241);
+  width: 100%;
+  padding: 4rem 0;
+}
+.Fresh .title {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.Fresh .title span {
+  color: orange;
+}
+.Fresh .title h4 {
+  color: orange;
+}
+.Fresh .title h2 {
+  font-size: 3rem;
+}
+.Fresh .fresh__contact {
+  padding-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+.Fresh .fresh__contact .item__contact {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  gap: 0;
+  margin-top: 0.5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.Fresh .fresh__contact .item__contact img {
+  width: 70%;
+  display: block;
+}
+.Fresh .fresh__contact .item__contact a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.Fresh .fresh__contact .item__contact a i {
+  background-color: rgb(255, 200, 98);
+  padding: 10px 11px;
+  border-radius: 100%;
+  margin-right: 5px;
+}
+.Fresh .fresh__contact .item__contact p {
+  opacity: 0.9;
+  line-height: 24px;
+}
+
+.Special {
+  width: 100%;
+  padding: 4rem 0;
+  background-image: url(/img/bg.jpg);
+  filter: brightness(90%);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+.Special .title h2 {
+  font-size: 4rem;
+  color: orange;
+}
+.Special .title h3 {
+  font-size: 2.5rem;
+}
+.Special .title p {
+  font-size: 1.4rem;
+}
+.Special .Special__contact .input {
+  width: 45%;
+  margin: 0 auto;
+  height: 7vh;
+  margin-top: 2rem;
+  overflow: hidden;
+}
+.Special .Special__contact .input input {
+  width: 40%;
+  height: 7vh;
+  border: 0;
+  text-indent: 10px;
+}
+.Special .Special__contact .input button {
+  height: 7vh;
+  border: 2px solid orange;
+  background-color: orange;
+  transition: all 0.3s linear;
+  font-size: 1.1rem;
+}
+.Special .Special__contact .input button:hover {
+  background-color: rgb(193, 125, 0);
+  border: 2px solid rgb(193, 125, 0);
+  transition: all 0.3s linear;
+}
+
+.PRICING {
+  background-color: rgb(255, 249, 241);
+  width: 100%;
+  padding: 4rem 0;
+}
+.PRICING .title {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  margin-bottom: 3rem;
+}
+.PRICING .title span {
+  color: orange;
+}
+.PRICING .title h4 {
+  color: orange;
+}
+.PRICING .title h2 {
+  font-size: 3rem;
+}
+.PRICING .pricing__contact {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+.PRICING .pricing__contact h2 {
+  margin-left: 10rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+.PRICING .pricing__contact .item__contact {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  gap: 0;
+  margin-top: 1rem;
+}
+.PRICING .pricing__contact .item__contact img {
+  width: 35%;
+  border-radius: 100%;
+  margin-left: 10rem;
+  position: relative;
+}
+.PRICING .pricing__contact .item__contact .img::before {
+  content: "";
+  position: absolute;
+  border: 10px solid red;
+  background-color: red;
+  color: red;
+  width: 20%;
+  height: 20vh;
+}
+.PRICING .pricing__contact .item__contact p {
+  opacity: 0.8;
+}
+
+.Online {
+  background-color: rgb(255, 249, 241);
+  width: 100%;
+  padding: 4rem 0;
+}
+.Online .online__contact {
+  width: 80%;
+  margin: 0 auto;
+  background-image: url(/img/bg.jpg);
+  background-size: cover;
+  background-color: rgb(18, 0, 0);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  gap: 0;
+}
+.Online .online__contact .item:last-of-type {
+  background-color: rgba(33, 8, 8, 0.8);
+  color: white;
+  text-align: center;
+  padding-top: 3rem;
+  padding: 50px 10px;
+}
+.Online .online__contact .item:last-of-type h2 {
+  color: white;
+  font-size: 2.7rem;
+}
+.Online .online__contact .item:last-of-type input, .Online .online__contact .item:last-of-type select, .Online .online__contact .item:last-of-type button {
+  display: block;
+  width: 80%;
+  height: 7vh;
+  opacity: 0.8;
+  margin: 0 auto;
+  background: 0;
+  margin-top: 1rem;
+  border: 1px solid orange;
+  color: white;
+  text-indent: 10px;
+}
+.Online .online__contact .item:last-of-type button {
+  background-color: orange;
+  color: white;
+}
+.Online .online__contact .item {
+  color: white;
+  padding-top: 5rem;
+  padding-left: 3rem;
+  padding-right: 4rem;
+  background-color: rgba(17, 0, 0, 0.5);
+}
+.Online .online__contact .item h2 {
+  color: orange;
+  font-size: 4rem;
+}
+.Online .online__contact .item h4 {
+  font-size: 2.3rem;
+}
+.Online .online__contact .item a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  margin-top: 1rem;
+}
+.Online .online__contact .item a i {
+  color: orange;
+  font-weight: bold;
+}
+.Online .online__contact .item option {
+  color: black;
+}
+
+.testimonial {
+  background-color: rgb(255, 249, 241);
+  width: 100%;
+  padding: 4rem 0;
+}
+.testimonial .test__content {
+  width: 100%;
+}
+.testimonial h3 {
+  color: #D49A59;
+}
+.testimonial h2 {
+  font-size: 3rem;
+}
+.testimonial p {
+  opacity: 0.5;
+}
+
+.footer {
+  background-image: url(/img/bg.jpg);
+  width: 100%;
+  padding: 4rem 0;
+}
+.footer .footer__contact {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  color: white;
+}
+.footer .footer__contact .item i {
+  font-size: 0.8rem;
+  margin-top: 1rem;
+  display: block;
+  letter-spacing: 1px;
+}
+.footer .footer__contact .item b {
+  border: 1px solid white;
+  padding: 11px 14px;
+  transition: all 0.3s linear;
+  margin-left: 0.5rem;
+}
+.footer .footer__contact .item b:hover {
+  background-color: white;
+  color: black;
+}
+.footer .footer__contact .item a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  margin-top: 7px;
+}
+.footer .footer__contact .item .input input {
+  border: 0;
+  height: 7vh;
+  text-indent: 8px;
+  width: 70%;
+}
+.footer .footer__contact .item .input span {
+  background-color: orange;
+  padding: 13px 15px;
+  color: black;
+}
+.footer .copyright {
+  text-align: center;
+  color: white;
+}
+.footer .copyright .tr {
+  border: 1px solid black;
+  width: 100%;
+  height: 1px;
+  margin-top: 5rem;
+}
+.footer .copyright .text {
+  width: 20%;
+  margin: 0 auto;
+  padding-top: 3rem;
+}/*# sourceMappingURL=style.css.map */

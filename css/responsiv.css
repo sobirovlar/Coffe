@@ -1,0 +1,97 @@
+@media only screen and (max-width: 768px) {
+  .header {
+    height: 50vh;
+  }
+  .header .navbar {
+    background-color: rgb(52, 26, 26);
+  }
+  .header .navbar a, .header .navbar select {
+    display: none;
+  }
+  .header .navbar i {
+    display: inline;
+    color: white;
+    font-size: 1.5rem;
+    border: 1px solid white;
+    padding: 7px 15px;
+  }
+  .header .navbar .logo a {
+    display: inline;
+    font-size: 1.9rem;
+  }
+  .header .banner {
+    padding-top: 2rem;
+  }
+  .header .banner span {
+    font-size: 1.5rem;
+  }
+  .header .banner h1 {
+    font-size: 4.5rem;
+  }
+  .ABOUt .title h2 {
+    font-size: 2.5rem;
+  }
+  .ABOUt .about__contact {
+    grid-template-columns: 1fr;
+  }
+  .ABOUt .about__contact .item {
+    width: 90%;
+  }
+  .ABOUt .about__contact .item img {
+    width: 100%;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+  }
+  .Fresh .title h2 {
+    font-size: 2.2rem;
+  }
+  .Fresh .fresh__contact {
+    grid-template-columns: 1fr;
+  }
+  .Fresh .fresh__contact .item__contact {
+    grid-template-columns: 1fr;
+  }
+  .Fresh .fresh__contact .item__contact img {
+    width: 100%;
+    padding-bottom: 2rem;
+  }
+  .footer .footer__contact {
+    grid-template-columns: 1fr;
+  }
+  .footer .footer__contact .item {
+    margin-top: 1.5rem;
+  }
+  .footer .footer__contact .item .input input {
+    height: 8vh;
+  }
+  .footer .footer__contact .item .input span {
+    padding: 15px 10px;
+  }
+  .footer .copyright .text {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .Online {
+    background-image: url(/img/bg.jpg);
+  }
+  .Online .online__contact {
+    grid-template-columns: 1fr;
+    background: 0;
+  }
+  .Online .online__contact .item {
+    background: 0;
+  }
+  .PRICING .pricing__contact {
+    grid-template-columns: 1fr;
+  }
+  .PRICING .pricing__contact h2 {
+    margin-left: 1rem;
+  }
+  .PRICING .pricing__contact .item__contact img {
+    margin-left: 1rem;
+    width: 50%;
+  }
+  .Special .Special__contact .input {
+    width: 100%;
+  }
+}/*# sourceMappingURL=responsiv.css.map */
