@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Indie+Flower&family=Lilita+One&family=Open+Sans&family=Roboto+Mono:wght@500&family=Rubik+Doodle+Shadow&display=swap');
 :root{
 --abril: 'Abril Fatface', serif;
@@ -39,8 +38,7 @@
         }
         i{display: none;}
         select{background: 0;}
-        .logo{
-          
+        .logo{         
 a{
     font-size: 3rem;
     color: white;
@@ -63,7 +61,11 @@ a{
         h3{
             color: white;}
     }
-
+}
+.owerlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba($color: #3f2929, $alpha: 0.6);
 }
 .ABOUt{
 background-color: rgb(255, 249, 241);
@@ -149,9 +151,8 @@ background-color: rgb(255, 249, 241);
                 opacity: 0.9;
                 line-height: 24px;
             }
-
-        }
-    }
+      }
+   }
 }
 .Special{
     @include card();
@@ -198,8 +199,7 @@ background-color: rgb(255, 249, 241);
                 }
             }
         }
-        
-    }
+   }
 }
 .PRICING{
     background-color: rgb(255, 249, 241);
@@ -286,9 +286,8 @@ background-color: rgb(255, 249, 241);
                     background-color: orange;
                     color: white;
                 }
-                
-            }
-            .item{
+                     }
+           .item{
                 color: white;
                 padding-top: 5rem;
                 padding-left: 3rem;
@@ -332,8 +331,7 @@ background-color: rgb(255, 249, 241);
     }
     p{
         opacity: 0.5;
-    }
-   
+    }  
 }
 .footer{
     background-image: url(/img/bg.jpg);
@@ -348,8 +346,7 @@ background-color: rgb(255, 249, 241);
             display: block;
             letter-spacing: 1px;        
     }
- 
-        b{
+    b{
             border: 1px solid white;
             padding: 11px 14px;
             transition: all 0.3s linear;
@@ -358,8 +355,7 @@ background-color: rgb(255, 249, 241);
             background-color: white;
             color: black;
            }
-
-        }
+     }
         a{
             display: block;
             text-decoration: none;
@@ -380,15 +376,13 @@ background-color: rgb(255, 249, 241);
             }
         }
     }
-
-   }
+}
    .copyright{
     .tr{
         border: 1px solid black;
         width: 100%;
         height: 1px;
         margin-top: 5rem;
-
     }
     text-align: center;
     color: white;
@@ -397,5 +391,5 @@ background-color: rgb(255, 249, 241);
         margin: 0 auto;
         padding-top: 3rem;
     }
-   }
+ }
 }
