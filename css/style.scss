@@ -65,7 +65,7 @@ a{
 .owerlay{
     width: 100%;
     height: 100%;
-    background-color: rgba($color: #3f2929, $alpha: 0.6);
+    background-color: rgba($color: #251919, $alpha: 0.6);
 }
 .ABOUt{
 background-color: rgb(255, 249, 241);
@@ -141,7 +141,7 @@ background-color: rgb(255, 249, 241);
                 font-size: 1.3rem;
                 font-weight: bold;
                 i{
-                    background-color: rgb(255, 200, 98);
+                    background-color: rgba(208, 135, 0, 0.845);
                     padding: 10px 11px;
                     border-radius: 100%;
                     margin-right: 5px;
@@ -157,7 +157,6 @@ background-color: rgb(255, 249, 241);
 .Special{
     @include card();
     background-image: url(/img/bg.jpg);
-    filter: brightness(90%);
     background-size: cover;
     color: white;
     text-align: center;
@@ -228,6 +227,19 @@ background-color: rgb(255, 249, 241);
             @include grid(repeat(2,1fr));
             gap: 0; 
             margin-top: 1rem;
+            span{
+                position: absolute;
+                top: 0;
+                right: 2rem;
+                padding: 10px 14px;
+                background-color: #D49A59;
+                border-radius: 100%;
+                z-index: 999;
+                
+            }
+            .item{
+                position: relative;
+            }
             img{
                 width: 35%;
                 border-radius: 100%;
@@ -279,8 +291,9 @@ background-color: rgb(255, 249, 241);
                     background: 0;
                     margin-top: 1rem;
                     border: 1px solid orange;
-                    color: white;
+                    color: rgb(160, 160, 160);
                     text-indent: 10px;
+                   
                 }
                 button{
                     background-color: orange;
@@ -335,16 +348,16 @@ background-color: rgb(255, 249, 241);
 }
 .footer{
     background-image: url(/img/bg.jpg);
-   @include card();
    .footer__contact{
+    padding-top: 4rem;
     @include grid(repeat(4,1fr));
     color: white;
     .item{
         i{
             font-size: 0.8rem;
-            margin-top: 1rem;
+            margin-top: 1.3rem;
             display: block;
-            letter-spacing: 1px;        
+            letter-spacing: 1.5px;        
     }
     b{
             border: 1px solid white;
@@ -390,6 +403,7 @@ background-color: rgb(255, 249, 241);
         width: 20%;
         margin: 0 auto;
         padding-top: 3rem;
+        padding-bottom: 2.5rem;
     }
  }
 }
