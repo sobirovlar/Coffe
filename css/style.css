@@ -172,12 +172,13 @@
 }
 
 .Special {
-  width: 100%;
-  padding: 4rem 0;
   background-image: url(/img/bg.jpg);
   background-size: cover;
   color: white;
   text-align: center;
+}
+.Special .title {
+  padding-top: 3rem;
 }
 .Special .title h2 {
   font-size: 4rem;
@@ -188,6 +189,9 @@
 }
 .Special .title p {
   font-size: 1.4rem;
+}
+.Special .Special__contact {
+  padding-bottom: 5rem;
 }
 .Special .Special__contact .input {
   width: 45%;
@@ -281,6 +285,14 @@
 }
 .PRICING .pricing__contact .item__contact p {
   opacity: 0.8;
+}
+
+.hr {
+  border: 1px solid orange;
+  width: 1px;
+  height: 10vh;
+  margin: 0 auto;
+  margin-bottom: 1rem;
 }
 
 .Online {

@@ -155,12 +155,13 @@ background-color: rgb(255, 249, 241);
    }
 }
 .Special{
-    @include card();
     background-image: url(/img/bg.jpg);
     background-size: cover;
     color: white;
     text-align: center;
     .title{
+padding-top: 3rem;
+
         h2{
             font-size: 4rem ;
             color: orange;
@@ -172,7 +173,9 @@ background-color: rgb(255, 249, 241);
             font-size: 1.4rem;
         }
     }
-    .Special__contact{    
+    .Special__contact{   
+    padding-bottom: 5rem;
+
         .input{
             width: 45%;
             margin: 0 auto;
@@ -260,6 +263,13 @@ background-color: rgb(255, 249, 241);
          }
         }
     }
+}
+.hr{
+    border: 1px solid orange;
+    width: 1px  ;
+    height: 10vh;
+    margin: 0 auto;
+    margin-bottom: 1rem;
 }
 .Online{
     background-color: rgb(255, 249, 241);
