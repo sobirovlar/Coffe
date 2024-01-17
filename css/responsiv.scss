@@ -87,16 +87,7 @@ img{
             }
         }
     }
-    .Online{
-        background-image: url(/img/bg.jpg);
-        .online__contact{
-            grid-template-columns: 1fr;
-            background: 0;
-            .item {
-                background: 0;
-            }
-        }
-    }
+
     .PRICING{
         .pricing__contact{
             grid-template-columns: 1fr;
@@ -108,7 +99,31 @@ img{
                     margin-left: 1rem;
                     width: 50%;
                 }
+                span{
+                    right: 5rem;
+                }
            }
+        }
+    }
+    .Online{
+        width: 96%;
+        margin: 0 auto;
+        padding-top: 1rem;
+        background-image: url(/img/bg.jpg);
+        .online__contact{
+        width: 100%;
+            grid-template-columns: 1fr;
+            background: 0;
+            .item {
+        padding-left: 0;
+        padding-top: 0;
+                background: 0;
+                opacity: 0.9;
+
+            }
+            .item:last-of-type{
+                margin-top: 3rem;
+            }           
         }
     }
     .Special{

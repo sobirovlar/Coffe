@@ -71,16 +71,6 @@
     width: 70%;
     margin: 0 auto;
   }
-  .Online {
-    background-image: url(/img/bg.jpg);
-  }
-  .Online .online__contact {
-    grid-template-columns: 1fr;
-    background: 0;
-  }
-  .Online .online__contact .item {
-    background: 0;
-  }
   .PRICING .pricing__contact {
     grid-template-columns: 1fr;
   }
@@ -90,6 +80,29 @@
   .PRICING .pricing__contact .item__contact img {
     margin-left: 1rem;
     width: 50%;
+  }
+  .PRICING .pricing__contact .item__contact span {
+    right: 5rem;
+  }
+  .Online {
+    width: 96%;
+    margin: 0 auto;
+    padding-top: 1rem;
+    background-image: url(/img/bg.jpg);
+  }
+  .Online .online__contact {
+    width: 100%;
+    grid-template-columns: 1fr;
+    background: 0;
+  }
+  .Online .online__contact .item {
+    padding-left: 0;
+    padding-top: 0;
+    background: 0;
+    opacity: 0.9;
+  }
+  .Online .online__contact .item:last-of-type {
+    margin-top: 3rem;
   }
   .Special .Special__contact .input {
     width: 100%;
