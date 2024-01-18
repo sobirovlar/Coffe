@@ -155,6 +155,32 @@ background-color: rgb(255, 249, 241);
    }
 }
 .Special{
+
+    position: relative;
+    &::after{
+        position: absolute;
+        content: '';
+        width: 100%;
+        left: 0;
+        top: -1px;
+        height: 10px;
+        background-image: url(/img/overlay-top.png);
+        background-size: 200px 10px;
+        z-index: 1;
+    }
+    &::before{
+        position: absolute;
+        content: '';
+        width: 100%;
+        left: 0;
+        bottom: -1px;
+        height: 10px;
+        background-image: url(/img/overlay-bottom.png);
+        background-size: 200px 10px;
+        z-index: 1;
+    }
+
+
     background-image: url(/img/bg.jpg);
     background-size: cover;
     color: white;
@@ -272,9 +298,36 @@ padding-top: 3rem;
     margin-bottom: 1rem;
 }
 .Online{
+
+
+    
     background-color: rgb(255, 249, 241);
     @include card();
         .online__contact{
+position: relative;
+&::after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    left: 0;
+    top: -1px;
+    height: 10px;
+    background-image: url(/img/overlay-top.png);
+    background-size: 200px 10px;
+    z-index: 1;
+}
+&::before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    left: 0;
+    bottom: -1px;
+    height: 10px;
+    background-image: url(/img/overlay-bottom.png);
+    background-size: 200px 10px;
+    z-index: 1;
+}
+
             width: 80%;
             margin: 0 auto;
             background-image: url(/img/bg.jpg);
@@ -357,6 +410,21 @@ padding-top: 3rem;
     }  
 }
 .footer{
+
+position: relative;
+&::after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    left: 0;
+    top: -1px;
+    height: 10px;
+    background-image: url(/img/overlay-top.png);
+    background-size: 200px 10px;
+    z-index: 1;
+}
+
+
     background-image: url(/img/bg.jpg);
    .footer__contact{
     padding-top: 4rem;
